@@ -23,7 +23,8 @@ app.get("/", (req, res)=>{
     res.send("<h1> Hello to mern </h1>")
 })
 
-app.get("/user", UserRouter)
+// Routes
+app.use("/user", UserRouter)
 
 
 app.listen(port, async()=>{
