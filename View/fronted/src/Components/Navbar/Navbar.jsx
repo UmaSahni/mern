@@ -30,8 +30,8 @@ const Navbar = () => {
         p={3}
       >
         <Link to={"/"}>
-          <Box fontWeight="bold" fontSize="xl">
-            <Image width={"25vh"} src="calofit-white.png" />
+          <Box pl="7" fontWeight="bold" fontSize="xl">
+            <Image width="4rem" src="mern-white.png" />
           </Box>
         </Link>
         <Box marginRight={"1%"}>
@@ -133,7 +133,7 @@ const Navbar = () => {
           
         >
           <DrawerContent
-          bgColor={"#FB6F92"}
+           bgColor={"#FB6F92"}
            color={"rgb(224, 224, 224)"}
           >
             <DrawerCloseButton />
